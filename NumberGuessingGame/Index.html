@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Number Guessing Game</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h3>Please guess a number between 1 - 100.</h3>
+            <input type="text" placeholder="No." id="guess">
+            <br>
+            <button onclick="guess()" id="guessBtn">Guess</button>
+            <button onclick="reset()" id="playAgain">Play again</button>
+
+
+            <p id="message1">No. of Guesses: 0</p>
+            <p id="message2">Guessed Numbers are: None</p>
+            <p id="message3"></p>
+
+            
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+
+</html>
